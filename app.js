@@ -69,6 +69,10 @@ function wtf() {
             res += 'ю'
         } else if (text[i] === 'z') {
             res += 'я'
+        } else if (text[i] === '&') {
+            res += '?'
+        } else if (text[i] === '?') {
+            res += ','
         } else {
             res += text[i];
         }
